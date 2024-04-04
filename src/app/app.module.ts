@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
-import { SmaelCardComponent } from './components/smael-card/smael-card.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
@@ -14,7 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
     AppComponent,
     MenuBarComponent,
     MenuTitleComponent,
-    SmaelCardComponent,
+    SmallCardComponent,
     BigCardComponent,
     HomeComponent
   ],

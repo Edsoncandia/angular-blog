@@ -1,21 +1,21 @@
-.container__smael-card {
+.container__small-card {
  width: 700px;
  margin-bottom:15px;
 }
-.container__smael-card-content{
+.container__small-card-content{
   display:flex;
   flex-direction: row;
 }
-.smael-card__photo>img {
+.small-card__photo>img {
   width: 260px;
   min-width: 200px;
   margin-right: 20px;
 }
-.smael-card__title {
+.small-card__title {
   display: flex;
   justify-content: center;
   align-items:center
 }
-.container__smael-card__separator{
+.container__small-card__separator{
   margin-top: 10px;
 }

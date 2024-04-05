@@ -1,7 +1,7 @@
 <div class="container__big-card">
   <div class="big-card__photo">
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBIbCcOFTCzK6ZzuGYCk55e9nBnWCebTgKXQ&s"
+      src="{{ photoCover }}"
       alt=""
       height="272px"
       srcset=""
@@ -9,14 +9,10 @@
   </div>
 
     <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
-    <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Vivamus et quam volutpat, commodo nunc non, aliquet tortor.
-In interdum tortor vel justo ullamcorper, eget lobortis mauris posuere.
-Nullam eu velit gravida erat iaculis iaculis.
-Generated 1 paragraph, 31 words, 235 bytes of Lorem Ipsum</a>
+    <p><a href="#">{{ cardDescription }}</a>
     </p>
   </div>
 
